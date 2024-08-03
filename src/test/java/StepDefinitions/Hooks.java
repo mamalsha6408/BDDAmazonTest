@@ -9,12 +9,14 @@ public class Hooks extends BaseClass {
 
     @Before
     public void tearUp(){
-        System.out.println("Inside Step - tear up");
+        setupDriver();
     }
 
     @After
     public void tearDown(){
-        System.out.println("Inside Step - tear down");
+        driver.close();
+        driver.quit();
+        tearDownDriver();
     }
 
     @AfterStep
