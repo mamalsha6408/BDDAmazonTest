@@ -5,11 +5,14 @@ import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 
+import java.io.IOException;
+
 public class Hooks extends BaseClass {
 
     @Before
-    public void tearUp(){
+    public void tearUp() throws IOException {
         setupDriver();
+        setupPropertiesFiles();
     }
 
     @After

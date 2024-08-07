@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d793c05a-e61c-4e87-9df5-79147fd763c4" name="Changes" comment="First Commit&#10;&#10;Maven Project created&#10;added cucumber and cucumber junit dependencies&#10;created folder structure">
+    <list default="true" id="d793c05a-e61c-4e87-9df5-79147fd763c4" name="Changes" comment="added webdriver and webdriver setup and teardown functions.&#10;&#10;also added selenium dependency to pom file">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/SignInSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/SignInSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/BaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Lenovo.DESKTOP-I0HH4JP/IdeaProjects/sdet/BDDAmazonTest/src/test/resources/Drivers",
-    "onboarding.tips.debug.path": "C:/Users/Lenovo.DESKTOP-I0HH4JP/IdeaProjects/sdet/BDDAmazonTest/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo.DESKTOP-I0HH4JP/IdeaProjects/sdet/BDDAmazonTest/src/test/resources/Drivers&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lenovo.DESKTOP-I0HH4JP/IdeaProjects/sdet/BDDAmazonTest/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo.DESKTOP-I0HH4JP\IdeaProjects\sdet\BDDAmazonTest\src\test\resources\Drivers" />
@@ -112,12 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722605243025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added webdriver and webdriver setup and teardown functions.&#10;&#10;also added selenium dependency to pom file">
+      <option name="closed" value="true" />
+      <created>1722668845750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722668845750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit&#10;&#10;Maven Project created&#10;added cucumber and cucumber junit dependencies&#10;created folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit&#10;&#10;Maven Project created&#10;added cucumber and cucumber junit dependencies&#10;created folder structure" />
+    <MESSAGE value="added webdriver and webdriver setup and teardown functions.&#10;&#10;also added selenium dependency to pom file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added webdriver and webdriver setup and teardown functions.&#10;&#10;also added selenium dependency to pom file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

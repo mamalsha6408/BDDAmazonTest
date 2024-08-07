@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/Features", glue = "StepDefinitions",tags="@signin",dryRun=false,
+@CucumberOptions(features = "src/test/resources/Features", glue = "StepDefinitions",tags="@signup",dryRun=false,
         plugin = {"pretty",
                 "html:target/cucmber-reports.html"},
         monochrome = true)
